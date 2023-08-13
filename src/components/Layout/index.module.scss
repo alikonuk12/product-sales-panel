@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 600px) {
+        flex-wrap: wrap;
+    }
+    gap: 20px;
+    width: calc(100% - 40px);
+    padding: 20px;
+}

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 20px);
+    padding: 10px;
+    gap: 5px;
+    box-shadow: 5px 9px 14px -5px #626B8B;
+    width: 210px;
+    background-color: #FFFFFF;
+}
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.price {
+    color: #2A59FE;
+    font-weight: 600;
+}

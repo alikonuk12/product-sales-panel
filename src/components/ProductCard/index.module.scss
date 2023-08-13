@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 170px;
+    height: 250px;
+}
+
+.name {
+    cursor: pointer;
+
+    &:hover {
+        color: #000000;
+    }
+}
+
+.button {
+    width: 100%;
+}

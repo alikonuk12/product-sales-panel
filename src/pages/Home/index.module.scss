@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 600px) {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+.filterAndOrderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    @media only screen and (max-width: 600px) {
+        gap: 30px;
+    }
+}
